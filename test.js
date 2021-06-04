@@ -3,10 +3,10 @@ const { checkWinner } = require('./js/util')
 const size = 4
 
 const data = [
-    'x', 'o', 'x', 'x',
-    'x', 'o', 'x', 'x',
-    'o', '', '', 'x',
-    'x', 'o', 'x', 'x'
+    'o', 'o', 'x', 'o',
+    'x', '', 'o', 'o',
+    'o', 'o', '', 'x',
+    'o', 'o', 'x', 'o'
 ]
 
 console.log ( checkWinner(data, size ) )
